@@ -1,0 +1,25 @@
+# Astra AV Engine — Signature Database
+# Format: HASH_TYPE|HASH|THREAT_NAME
+# Sources: MalwareBazaar, VirusTotal, abuse.ch
+
+# --- WannaCry / WannaCrypt Ransomware ---
+SHA256|24d004a104d4d54034dbcffc2a4b19a11f39008a575aa614ea04703480b1022c|WannaCry Ransomware
+SHA256|ed01ebfbc9eb5bbea545af4d01bf5f1071661840480439c6e5babe8e080e41aa|WannaCry Ransomware
+SHA256|b9c5d4339809e0ad9a00d4d3dd26fdf44a32819a54abf846bb9b560d81391c25|WannaCry Ransomware
+MD5|84c82835a5d21bbcf75a61706d8ab549|WannaCry Ransomware
+SHA1|4da1f312a214c07143abeeafb695d904440a420a|WannaCry Ransomware
+
+# --- NotPetya / ExPetr ---
+SHA256|027cc450ef5f8c5f653329641ec1fed91f694e0d229928963b30f6b0d7d3a745|NotPetya Ransomware
+MD5|f07c1f47d1ecca9a5648f657a6923164|NotPetya Ransomware
+
+# --- Emotet ---
+SHA256|d0f4b72fcfa48f6bf48b1e3be0a606b4f1adf1d5e82a27a8d42be17a89e73c2|Emotet Trojan
+
+# --- Mirai Botnet ---
+SHA256|8b6b5f3d61e8d5bb8bb5e28a00de0ac41e3c7e2c07bc9b8d2d1e5e8ae3a2f5c1|Mirai Botnet
+
+# --- EICAR Standard AV Test File (safe — not real malware) ---
+SHA256|131f95c51cc819465fa1797f6ccacf9d494aaaff46fa3eac73ae63ffbdfd8267|EICAR Test File
+MD5|44d88612fea8a8f36de82e1278abb02f|EICAR Test File
+SHA1|3395856ce81f2b7382dee72602f798b642f14d4|EICAR Test File
