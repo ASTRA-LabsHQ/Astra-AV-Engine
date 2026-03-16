@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ASTRA-LabsHQ/Astra-Av-Engine/scanner"
+	"github.com/ASTRA-LabsHQ/Astra-AV-Engine/scanner"
 )
 
 // ============================================================

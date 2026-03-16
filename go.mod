@@ -1,3 +1,3 @@
-module github.com/ASTRA-LabsHQ/astra-av-engine
+module github.com/ASTRA-LabsHQ/Astra-AV-Engine
 
 go 1.24.1
