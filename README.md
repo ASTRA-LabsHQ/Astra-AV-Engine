@@ -54,7 +54,7 @@ astra-av-engine/
 ├── scanner/
 │   └── scanner.go       # Core scanning logic
 ├── signatures/
-│   └── hashes.txt       # Known malware hash database
+│   └── signatures.txt       # Known malware hash database
 ├── go.mod
 └── README.md
 ```
@@ -111,7 +111,7 @@ go build -o astra-av ./...
 
 ## Signature Database
 
-Hashes are stored in `signatures/hashes.txt` in a simple pipe-delimited format:
+Hashes are stored in `signatures/signatures.txt` in a simple pipe-delimited format:
 
 ```
 SHA256|db349b97c37d22f5ea1d1841e3c89eb4ed9fde70b8c7046e6b8f4...|WannaCry Ransomware
