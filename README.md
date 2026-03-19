@@ -118,6 +118,7 @@ astra-av-engine/
 │ └── hashes.txt # Known malware hash database
 ├── rules/
 │ └── malware_generic.yar # Sample YARA rules
+│ └── signatures.txt # Known malware hash database
 ├── go.mod
 └── README.md
 
@@ -143,6 +144,31 @@ Add a hash to the signature database:
 
 Signature Database
 Hashes are stored in signatures/hashes.txt in a simple pipe-delimited format:
+
+```
+
+### Example Output
+
+```
+
+[*] Astra AV Engine v0.1.0
+[*] Scanning: wannacry.exe
+
+[!] DETECTED — wannacry.exe
+SHA-256 : db349b97c37d22f5ea1d1841e3c89eb4ed9fde70b8c7046e6b8f4...
+Match : WannaCry Ransomware
+Verdict : MALICIOUS
+
+```
+
+---
+
+## Signature Database
+
+Hashes are stored in `signatures/signatures.txt` in a simple pipe-delimited format:
+
+```
+
 SHA256|db349b97c37d22f5ea1d1841e3c89eb4ed9fde70b8c7046e6b8f4...|WannaCry Ransomware
 MD5|84c82835a5d21bbcf75a61706d8ab549|WannaCry Ransomware
 SHA1|4da1f312a214c07143abeeafb695d904440a420a|WannaCry Ransomware
