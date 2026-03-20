@@ -1,9 +1,6 @@
 // ============================================================
 // ASTRA AV Engine — Episode 2: Sample YARA Rules
 
-// =====================================================
-// ASTRA AV Engine – Episode 2: Sample YARA Rules
-
 rule wannacry_ransomware
 {
     meta:
